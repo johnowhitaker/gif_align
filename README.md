@@ -2,6 +2,10 @@
 
 A local, static HTML tool for building aligned GIFs from still images.
 
+<img width="1463" height="814" alt="image" src="https://github.com/user-attachments/assets/cc82f4e2-5a19-4030-adfa-1f72e4743b55" />
+
+Vibe coded in order to make [this GIF](https://x.com/johnowhitaker/status/2027922837844201987) using Codex 5.3.
+
 ## Features
 
 - Drag/drop multiple image files (8+ frames works fine)
@@ -19,7 +23,7 @@ A local, static HTML tool for building aligned GIFs from still images.
 Because GIF workers can be blocked by some browsers on `file://`, run a local server:
 
 ```bash
-cd /Users/johno/projects/gifm
+cd gifm
 python3 -m http.server 8000
 ```
 
